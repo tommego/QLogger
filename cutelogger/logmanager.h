@@ -19,6 +19,7 @@ public:
 
     void debug_log_console_on();
     QString joinPath(const QString& path, const QString& fileName);
+    QString getlogFilePath();
 
 signals:
 

@@ -40,6 +40,11 @@ QString LogManager::joinPath(const QString &path, const QString &fileName){
     return QString("%1%2%3").arg(path, separator, fileName);
 }
 
+
+QString LogManager::getlogFilePath(){
+    return m_logPath;
+}
+
 LogManager::~LogManager()
 {
 
