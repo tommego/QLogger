@@ -3,17 +3,38 @@
 *.lo
 *.o
 
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+
 # Compiled Dynamic libraries
 *.so
 *.dylib
+
+*.dll
+
+# Fortran module files
+*.mod
+
 
 # Compiled Static libraries
 *.lai
 *.la
 *.a
 
+
 build*/
 *.pro.user*
 *.DS_Store
 dde-control-center
 *.core
+
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
